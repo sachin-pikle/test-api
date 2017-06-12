@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: 1.0.0
-  title: "get-my-products"
+  title: "product-catalog"
   description: Coca Cola's product catalog API
   termsOfService: http://cocacola.com/
   contact:
