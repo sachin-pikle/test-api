@@ -57,3 +57,12 @@ deploy-to-cluster:
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
         command: apply -f kubernetes.yml
+
+alpine-test:
+  box:
+    id: alpine
+    cmd: /bin/sh
+  steps:
+    - script:      
+        name: list
+        code: ls
